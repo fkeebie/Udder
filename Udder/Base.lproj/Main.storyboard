@@ -21,7 +21,7 @@
                                 <rect key="frame" x="134" y="89" width="107" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="nr8-Tc-H5H"/>
-                                    <constraint firstAttribute="width" constant="107" id="zfh-cg-Cce"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="107" id="zfh-cg-Cce"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -31,7 +31,7 @@
                                 <rect key="frame" x="98" y="151" width="178" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="blu-8z-ubw"/>
-                                    <constraint firstAttribute="width" constant="178" id="eMn-Gx-KYM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="178" id="eMn-Gx-KYM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -46,7 +46,8 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IrQ-Ix-09f" secondAttribute="trailing" constant="99" id="B7c-ov-FFy"/>
                             <constraint firstItem="IrQ-Ix-09f" firstAttribute="top" secondItem="RuM-pB-Mhb" secondAttribute="bottom" constant="14" id="ThT-g4-fCi"/>
-                            <constraint firstItem="RuM-pB-Mhb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="ecd-w3-gDL"/>
+                            <constraint firstItem="RuM-pB-Mhb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ecd-w3-gDL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RuM-pB-Mhb" secondAttribute="trailing" constant="134" id="fb6-vT-6u1"/>
                             <constraint firstItem="RuM-pB-Mhb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="in6-Lj-MF3"/>
                             <constraint firstItem="IrQ-Ix-09f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="nwW-L9-Gfo"/>
                         </constraints>
